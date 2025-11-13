@@ -38,7 +38,7 @@ jobs:
           sast-scan: true
         env:
           FOD_URL: https://ams.fortify.com
-          FOD_TENANT: ${{secrets.FOD_TENANT}}
+          FOD_TENANTID: ${{secrets.FOD_TENANTID}}
           FOD_API_KEY: ${{ secrets.FOD_API_KEY }}
           FOD_API_SECRET: ${{ secrets.FOD_API_SECRET }}
           FOD_RELEASEID: ${{ secrets.FOD_RELEASEID }}
